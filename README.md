@@ -10,7 +10,7 @@ To run the code
 1. Install pipenv by running `pip install pipenv` in a terminal
 2. Install packages from the Pipfile by running `pipenv install`
 3. You will need to configure AWS credentials in your local environment by following the instructions here: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#configuration
-4. Follow the instructions at the following link to create an ARN for Sagemaker: {https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html}
+4. Follow the instructions at the following link to create an ARN for Sagemaker: https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html
 5. Export that ARN to your environment by running: `export sagemaker_arn=AmazonSageMaker-ExecutionRole-123456789`, replacing `AmazonSageMaker-ExecutionRole-123456789` with your ARN
 6. Create a bucket to save your results to in S3 and add the name of the bucket in config/config.yaml and in tests/assets/config.yaml, replacing what is currently "my-example-bucket-128581273975"
 7. Run unit tests by running `pytest tests/unit_tests`
