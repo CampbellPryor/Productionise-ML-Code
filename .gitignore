@@ -1,2 +1,6 @@
 /.vscode
 /sagemaker_xgboost_customer_churn.ipynb
+.env
+churn.txt
+__pycache__/
+.DS_Store

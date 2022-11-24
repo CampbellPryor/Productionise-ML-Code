@@ -6,9 +6,13 @@ name = "pypi"
 [packages]
 sagemaker = "~=2.116"
 pandas = "*"
+pyyaml = "*"
 
 [dev-packages]
 black = "*"
+jupyter = "*"
+ipython = "*"
+pytest = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
